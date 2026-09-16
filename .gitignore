@@ -1,0 +1,17 @@
+# Виртуальное окружение и кэш
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Сырые данные и архивы
+*.csv
+*.tsv
+*.xlsx
+*.tar.gz
+*.zip
+data/raw/
+
+# Исключение: разрешить публикацию финальной мини-таблицы
+!data/summary_metrics.csv
